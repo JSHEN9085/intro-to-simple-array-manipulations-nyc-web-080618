@@ -15,8 +15,7 @@ def using_pop(array)
 end 
 
 def pop_with_args(array)
-  array = a 
-  array = array.pop
+  array = a[0..-3] 
   return array
 end 
 
