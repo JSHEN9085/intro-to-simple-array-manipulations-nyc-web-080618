@@ -43,3 +43,5 @@ def using_uniq(array)
   return array
 end 
 
+def using_flatten(array)
+  
