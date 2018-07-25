@@ -15,8 +15,9 @@ def using_pop(array)
 end 
 
 def pop_with_args(array)
-  array = a[0..-2] 
-  return array
+  array1 = array.shift
+  array2 = array1.shift
+  return array2
 end 
 
 def using_shift(array)
